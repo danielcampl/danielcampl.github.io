@@ -22,3 +22,17 @@ p.line {
     white-space: nowrap;
     overflow: hidden;
 }
+
+div.habs {
+    margin-bottom: 4rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+div.littleLine {
+    color: grey;
+    position: relative;
+    top: 4.3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}

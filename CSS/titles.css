@@ -60,3 +60,17 @@ h5 {
     position: absolute;
     top: 46%;
 }
+
+ul.emotes li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 7rem;
+}
+
+.js, .css, .html {
+    width: 100px;
+    height: 100px;
+    color: rgb(18, 18, 34);
+}

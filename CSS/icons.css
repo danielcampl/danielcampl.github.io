@@ -1,0 +1,31 @@
+.mail {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: rgba(255, 255, 255, .75);
+    opacity: 0.6;
+    border: 8px solid rgb(18, 18, 34);
+    border-radius: 50%;
+    background-color: rgb(18, 18, 34);
+    top: 55rem;
+}
+
+.mail:hover {
+    opacity: 1;
+}
+
+.modeIcon {
+    width: 45px;
+    height: 45px;
+    color: rgba(255, 255, 255, .75);
+    z-index: 3;
+}
+
+.modeIcon:hover, .menuHeader:hover {
+    opacity: 0.5;
+}
+
+.menuIcon {
+    width: 45px;
+    height: 45px;
+}

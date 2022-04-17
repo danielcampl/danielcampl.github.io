@@ -21,22 +21,6 @@ nav.up {
     align-items: center;
 }
 
-.modeIcon {
-    width: 45px;
-    height: 45px;
-    color: rgba(255, 255, 255, .75);
-    z-index: 3;
-}
-
-.modeIcon:hover, .menuHeader:hover {
-    opacity: 0.5;
-}
-
-.menuIcon {
-    width: 45px;
-    height: 45px;
-}
-
 .menuHeader {
     align-items: center;
     display: flex;
