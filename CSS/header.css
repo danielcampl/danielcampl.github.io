@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.headName {
+    padding-left: 5%;
+    z-index: 3;
+}
+
+nav.up {
+    margin-right: 2%;
+}
+
+.leftHead {
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.modeIcon {
+    width: 45px;
+    height: 45px;
+    color: rgba(255, 255, 255, .75);
+    z-index: 3;
+}
+
+.modeIcon:hover, .menuHeader:hover {
+    opacity: 0.5;
+}
+
+.menuIcon {
+    width: 45px;
+    height: 45px;
+}
+
+.menuHeader {
+    align-items: center;
+    display: flex;
+    margin-top: 45%;
+    margin-bottom: 30%;
+}
+
