@@ -6,10 +6,6 @@ hr {
     width: 80%;
 }
 
-div.littleLine hr {
-    border: 2px solid rgba(128, 128, 128, 0.781);
-}
-
 .bg {
     width: 100%;
     height: 100%;
@@ -29,10 +25,33 @@ div.littleLine hr {
 
 main {
     padding-top: 60%;
+    width: 100%;
+    height: 220vh;
 }
 
 .intro {
     padding-left: 8%;
     margin-right: 55%;
     margin: 0;
+}
+
+.projectContainer {
+    position: absolute;
+    width: 99%;
+    height: 50%;
+    margin-top: 15vh;
+}
+
+.aboutContainer {
+    position: absolute;
+    width: 99%;
+    height: 50%;
+    margin-top: -10vh;
+}
+
+.habs {
+    position: absolute;
+    margin-top: 40vh;
+    padding-left: 23.5%;
+    margin-left: 4%;
 }

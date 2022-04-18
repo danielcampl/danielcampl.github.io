@@ -1,20 +1,18 @@
 footer {
-    margin-top: 1%;
     padding-left: 10%;
     display: flex;
     justify-content: space-between;
 }
 
 .dFooter {
-    opacity: 0.5;
-    width: 60px;
-    height: 60px;
+    opacity: 0.4;
+    width: 40px;
+    height: 40px;
 }
 
 .footer {
     display: flex;
     align-items: center;
-    margin-bottom: 1vh;
 }
 
 p#footer {
@@ -27,4 +25,4 @@ p#footer {
 
 .heart {
     color: red;
-    }
+}

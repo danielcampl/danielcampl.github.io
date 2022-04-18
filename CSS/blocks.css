@@ -23,20 +23,11 @@ p.line {
     overflow: hidden;
 }
 
-div.habs {
-    margin-bottom: 4rem;
-    margin-left: 30rem;
-    margin-right: 30rem;
-}
-
-div.smooth {
-    display: none;
-}
-
 div.littleLine {
     color: grey;
     position: relative;
     top: 8rem;
-    margin-left: 30rem;
-    margin-right: 30rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    margin-top: 40vh;
 }

@@ -8,18 +8,20 @@ h1.large {
 }
 
 h1.medium {
-    font-size: 40px;
+    font-size: 50px;
+    padding-left: 8%;
 }
 
 h1.name {
     position: absolute; 
     top: 15%;
+    color: rgba(255, 255, 255, .75);
 }
 
 h1 {
     font-family: 'Secular One', sans-serif;
-    color: rgba(255, 255, 255, .75);
     text-decoration: none;
+    color: rgb(18, 18, 34);
 }
 
 h2 {
@@ -66,7 +68,7 @@ ul.emotes li {
     display: inline-block;
     align-items: center;
     justify-content: space-around;
-    padding-left: 7rem;
+    padding-left: 100px;
 }
 
 div ul.socials {
@@ -82,13 +84,11 @@ ul.socials li {
 }
 
 #socials {
-    color: rgb(61, 61, 61);
+    color: rgb(22, 22, 22);
     width: 30px;
     height: 30px;
 }
 
-.js, .css, .html {
-    width: 100px;
-    height: 100px;
-    color: rgb(18, 18, 34);
+#socials:hover {
+    opacity: 0.7;
 }

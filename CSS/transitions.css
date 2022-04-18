@@ -86,3 +86,48 @@ div.introContainer {
         height: 0vh;
     }
 }
+
+.html:hover {
+    animation: colorZoom2 .3s ease forwards;
+}
+
+@keyframes colorZoom2 {
+    from {
+        color: rgb(18, 18, 34);
+    }
+    to {
+        color: rgb(255, 166, .75);
+        background-color: rgb(18, 18, 34);
+        border-radius: 10%;
+    }
+}
+
+.css:hover {
+    animation: colorZoom1 .3s ease forwards;
+}
+
+@keyframes colorZoom1 {
+    from {
+        color: rgb(18, 18, 34);
+    }
+    to {
+        color: rgb(.75, 255, 255);
+        background-color: rgb(18, 18, 34);
+        border-radius: 10%;
+    }
+}
+
+.js:hover {
+    animation: colorZoom .3s ease forwards;
+}
+
+@keyframes colorZoom {
+    from {
+        color: rgb(18, 18, 34);
+    }
+    to {
+        color: rgb(255, 255, .75);
+        background-color: rgb(18, 18, 34);
+        border-radius: 10%;
+    }
+}
