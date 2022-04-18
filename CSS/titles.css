@@ -69,6 +69,24 @@ ul.emotes li {
     padding-left: 7rem;
 }
 
+div ul.socials {
+    padding-right: 10rem;
+}
+
+ul.socials li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 2rem;
+}
+
+#socials {
+    color: rgb(61, 61, 61);
+    width: 30px;
+    height: 30px;
+}
+
 .js, .css, .html {
     width: 100px;
     height: 100px;
