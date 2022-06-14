@@ -98,15 +98,15 @@ h2
 input
 {
     height: 30px;
-    background-color: #0d0b14;
     border-radius: 10px;
-    border-color: #ddbea8;
+    color: black;
 }
 textarea
 {
-    background-color: #0d0b14;
-    border-radius: 20px;
-    border-color: #ddbea8;
+    border-radius: 15px;
+    resize: none;
+    color: black;
+    font-size: 16px;
 }
 label
 {
@@ -120,19 +120,29 @@ button
     padding: 10px 15px;
     display: flex;
     align-items: center;
+    color: #1b1727;
 }
 span
 {
     padding-left: 5px;
     font-family: 'Secular One', sans-serif;
     font-size: 18px;
-    color: #1b1727;
 }
-.send
+.but
 {
-    color: #1b1727;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.btn-icon-send
+{
     height: 20px;
     width: 20px;
+}
+.btn-icon-reset
+{
+    height: 25px;
+    width: 25px;
 }
 
 /*FOOTER*/
