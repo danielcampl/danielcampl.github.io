@@ -29,6 +29,7 @@ h1
 {
     color: rgba(221, 221, 221);
     font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
 }
 img
 {
@@ -37,7 +38,7 @@ img
 }
 .photo
 {
-    width: 590px;
+    width: 630px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -68,14 +69,70 @@ h2
 {
     height: 30vh;
 }
+.content
+{
+    max-width: 735px;
+    margin: auto;
+}
+
+/*FORMULÁRIO*/
 .contact
 {
     height: 70vh;
 }
-.content
+#forms
 {
-    max-width: 700px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.forms
+{
+    width: 45.5rem;
+    color: #ddbea8;
+    font-size: 28px;
+    font-family: 'Secular One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input
+{
+    height: 30px;
+    background-color: #0d0b14;
+    border-radius: 10px;
+    border-color: #ddbea8;
+}
+textarea
+{
+    background-color: #0d0b14;
+    border-radius: 20px;
+    border-color: #ddbea8;
+}
+label
+{
+    margin-top: 20px;
+}
+button
+{
+    margin-top: 20px;
+    background-color: #ddbea8;
+    border-radius: 7px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+span
+{
+    padding-left: 5px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 18px;
+    color: #1b1727;
+}
+.send
+{
+    color: #1b1727;
+    height: 20px;
+    width: 20px;
 }
 
 /*FOOTER*/
