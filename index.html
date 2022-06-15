@@ -20,43 +20,46 @@
 </head>
 
 <body>
-    <header class="header">
-        <section>
-            <div class="photo">
-                <img class="photo-pic" src="./images/trybe-photo.jpg" alt="trybe-photo">
-                <h1>Olá! Sou o Daniel Campelo.</h1>
-            </div>
-        </section>
+    <header>
         <section class="nav-list-container">
-            <nav class="nav-list">
-                <div>
-
-                </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
+            <div>
+                <h1>Daniel Campelo</h1>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li>AAA</li>
+                    <li>AA</li>
+                    <li>A</li>
+                </ul>
             </nav>
+        </section>
     </header>
     <main>
+        <div class="background"></div>
+        <section class="title-container">
+            <div class="title">
+                <h2>Portfólio</h2>
+            </div>
+        </section>
         <section class="about">
-            <div class="content">
-                <h2 class="--primary">Sobre mim</h2>
+            <div>
+                <img src="./images/trybe-photo.jpg" alt="photo" class="photo">
+            </div>
+            <div class="space">
+                <h3 class="--primary">Sobre mim</h3>
+                <article class="art-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga molestias aperiam tenetur dolorem! Repellat unde facilis alias blanditiis cum? Sequi debitis id enim quam cupiditate soluta beatae, aspernatur sapiente explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga molestias aperiam tenetur dolorem! Repellat unde facilis alias blanditiis cum? Sequi debitis id enim quam cupiditate soluta beatae, aspernatur sapiente explicabo?</article>
             </div>
         </section>
         <section class="skills">
             <div class="content">
-                <h2 class="--secundary">Habilidades</h2>
+                <h3 class="--secundary">Habilidades</h3>
+                <article class="art-two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga molestias aperiam tenetur dolorem! Repellat unde facilis alias blanditiis cum? Sequi debitis id enim quam cupiditate soluta beatae, aspernatur sapiente explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga molestias aperiam tenetur dolorem! Repellat unde facilis alias blanditiis cum? Sequi debitis id enim quam cupiditate soluta beatae, aspernatur sapiente explicabo?</article>
             </div>
         </section>
         <section class="contact">
             <div class="content">
-                <h2 class="--secundary">Entre em contato</h2>
-            </div>
-            <div id="forms">
-                <form action="" method="get" class="forms-container">
+                <h3 class="--secundary">Entre em contato</h3>
+                <form action="" method="get">
                     <div class="forms">
                         <label for="name">Seu nome:</label>
                         <input type="text" name="name" id="name" class="color" required />
@@ -67,9 +70,10 @@
                     </div>
                     <div class="forms">
                         <label for="message">Sua mensagem:</label>
-                        <textarea name="message" id="message" cols="30" rows="10" maxlength="300" class="color"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" maxlength="300"
+                            class="color"></textarea>
                     </div>
-                    <div class="but">
+                    <div class="btn">
                         <button type="submit">
                             <ion-icon name="send" class="btn-icon-send"></ion-icon>
                             <span>Enviar</span>

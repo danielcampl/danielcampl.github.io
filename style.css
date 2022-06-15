@@ -1,165 +1,224 @@
 /*BODY*/
-*
-{
+/*border: 1px solid red;*/
+* {
     margin: 0;
     padding: 0 auto;
 }
-body
-{
-    background-color: #1b1727;
+
+.--primary {
+    color: #343834;
 }
-.--primary
-{
-    color: #160f29;
-}
-.--secundary
-{
-    color: #ddbea8;
+
+.--secundary {
+    color: #f3dea4;
 }
 
 /*HEADER*/
-header
-{
-    height: 100vh;
+header {
+    background-color: #faf9f9;
+    z-index: 1;
+    width: 100%;
+    height: 8vh;
     display: flex;
-    justify-content: center;
+}
+
+h1 {
+    color: #2f442d;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+}
+
+nav {
+    padding-left: 500px;
+}
+
+.nav-list-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
-h1
-{
+
+.nav-list {
+    width: 300px;
+    height: 5vh;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*MAIN*/
+h2 {
     color: rgba(221, 221, 221);
     font-family: 'Source Code Pro', monospace;
     font-size: 28px;
 }
-img
-{
-    border: 4px solid #ddbea8;
-    zoom: 130%;
-}
-.photo
-{
-    width: 630px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.photo-pic
-{
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-}
 
-/*MAIN*/
-main
-{
-
-}
-h2
-{
+h3 {
     font-family: 'Secular One', sans-serif;
     font-size: 38px;
+    padding-top: 40px;
 }
-.about
-{
-    background-color: #ddbea8;
+
+.background {
+    width: 100%;
+    height: 92vh;
+    background-image: url(./images/background.jpg);
+    position: absolute;
+    z-index: 0;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 92vh;
+    width: 100rem;
+    z-index: 1;
+}
+
+.about {
     height: 50vh;
+    background-color: #faf9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.skills
-{
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid #f3dea4;
+}
+
+article {
+    max-width: 735px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.art-one {
+    max-width: 500px;
+    padding-top: 20px;
+}
+
+.art-two {
+
+}
+
+.space {
+    padding-left: 100px;
+    
+}
+
+.skills {
     height: 30vh;
+    background-color: #727d71;
 }
-.content
-{
+
+.content {
     max-width: 735px;
     margin: auto;
 }
 
 /*FORMULÁRIO*/
-.contact
-{
-    height: 70vh;
+.contact {
+    height: 75vh;
+    background-color: #727d71;
 }
-#forms
-{
-    display: flex;
-    justify-content: center;
-}
-.forms
-{
+
+.forms {
     width: 45.5rem;
-    color: #ddbea8;
+    color: #f3dea4;
     font-size: 28px;
     font-family: 'Secular One', sans-serif;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-input
-{
+
+input {
     height: 30px;
     border-radius: 10px;
     color: black;
 }
-textarea
-{
+
+textarea {
     border-radius: 15px;
     resize: none;
     color: black;
     font-size: 16px;
 }
-label
-{
+
+label {
     margin-top: 20px;
 }
-button
-{
+
+button {
     margin-top: 20px;
-    background-color: #ddbea8;
+    background-color: #faf9f9;
     border-radius: 7px;
     padding: 10px 15px;
     display: flex;
     align-items: center;
     color: #1b1727;
 }
-span
-{
+
+span {
     padding-left: 5px;
     font-family: 'Secular One', sans-serif;
     font-size: 18px;
 }
-.but
-{
+
+.btn {
     display: flex;
     justify-content: space-between;
     width: 250px;
 }
-.btn-icon-send
-{
+
+.btn-icon-send {
     height: 20px;
     width: 20px;
 }
-.btn-icon-reset
-{
+
+.btn-icon-reset {
     height: 25px;
     width: 25px;
 }
 
 /*FOOTER*/
-footer
-{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5em;
-    color: #ddbea8;
-    background-color: #3a506b;
+    color: #1b1727;
+    background-color: #faf9f9;
     font-size: 14px;
     font-family: 'Secular One', sans-serif;
 }
-.heart
-{
+
+.heart {
     color: red;
 }
 
 /*GERAL*/
+
+/*
+.photo-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    zoom: 130%;
+    margin-right: 10px;
+}
+*/
