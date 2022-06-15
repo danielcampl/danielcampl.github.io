@@ -28,18 +28,26 @@ h1 {
     font-size: 28px;
 }
 
+h1:hover {
+    color: #2f442dc0;
+}
+
 nav {
     padding-left: 500px;
 }
 
-.nav-list-container {
+.header {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.nav-list {
+.nav-list-container {
+    display: flex;
+}
+
+ul.refs {
     width: 300px;
     height: 5vh;
     align-items: center;
@@ -48,6 +56,30 @@ nav {
     justify-content: space-around;
 }
 
+ul.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.socials li {
+    padding-left: 15px;
+}
+
+.social {
+    width: 25px;
+    height: 25px;
+}
+
+li {
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+li:hover {
+    opacity: 0.6;
+}
 
 /*MAIN*/
 h2 {
@@ -86,7 +118,7 @@ h3 {
 }
 
 .about {
-    height: 50vh;
+    height: 80vh;
     background-color: #faf9f9;
     display: flex;
     align-items: center;
@@ -94,7 +126,7 @@ h3 {
 }
 
 .photo {
-    width: 300px;
+    width: 270px;
     height: 300px;
     border-radius: 20px;
     border: 5px solid #f3dea4;
@@ -128,6 +160,10 @@ article {
 .content {
     max-width: 735px;
     margin: auto;
+}
+
+.projects {
+    height: 50vh;
 }
 
 /*FORMULÁRIO*/
